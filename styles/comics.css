@@ -127,7 +127,6 @@
 }
 
 @media (min-width: 45rem){
-
   .comicsBanner {
     margin-top: 4rem;
   }
@@ -155,6 +154,10 @@
 }
 
 @media (min-width: 60rem){
+  .imageSection {
+    margin-left: 5rem;
+  }
+
   .comicsGrid {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
