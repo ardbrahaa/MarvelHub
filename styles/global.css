@@ -16,6 +16,7 @@
   --fs400: 1rem;
   --fs300: .8rem;
   --fs200: .5rem;
+  --fs100: .5rem;
 
   /* Font families */
   --ffSans: 'Open Sans', sans-serif;
@@ -33,6 +34,7 @@
   --fs400: 1.125rem;
   --fs300: 1rem;
   --fs200: .75rem;
+  --fs200: .5rem;
   }
 }
 
@@ -45,6 +47,7 @@
   --fs400: 1.25rem;
   --fs300: 1.12rem;
   --fs200: 1rem;
+  --fs100: .75rem;
   }
 }
 
@@ -169,6 +172,7 @@ input, button, textarea, select { font: inherit;}
 .fs400 { font-size: var(--fs400);}
 .fs300 { font-size: var(--fs300);}
 .fs200 { font-size: var(--fs200);}
+.fs100 { font-size: var(--fs100);}
 
 .fs900, .fs800, .fs700, .fs600 { line-height: 1.1; }
 
