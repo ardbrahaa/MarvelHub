@@ -316,6 +316,13 @@ input, button, textarea, select { font: inherit;}
   display: none;
 }
 
+.navUser {
+  margin-top: .5rem;
+  width: 30px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+}
+
 @media (max-width: 53.999rem) {  
   .nav {
     z-index: 1000;
