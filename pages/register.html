@@ -9,7 +9,7 @@
   <title>MarvelHub | Sign up</title>
 </head>
 <body>
-  <div class="accountCard">
+  <div class="background">
     <header class="mainHeader flex">
       <div class="headerLogo">
         <a href="../index.html"><img src="../assets/icons/icon.png"></a>
@@ -42,6 +42,8 @@
           <li class="pointer transition"><a href="../pages/merchandise.html">Merchandise</a></li>
           <li id="onMobile" class="pointer transition"><a href="../pages/about.html">About Us</a></li>
           <li id="onMobile" class="pointer transition"><a href="../pages/contact.html">Contact Us</a></li>
+          <li id="onMobile" class="pointer transition"><a href="../pages/login.html">Log In</a></li>
+          <li id="onMobile" class="pointer transition"><a href="../pages/register.html">Register</a></li>
           <li id="onDesktop" class="dropdown pointer transition">
             <button class="dropbtn pointer textWhite">About &#9662;</button>
             <div class="dropdown-content">
@@ -49,30 +51,39 @@
               <a class="transition" href="../pages/contact.html">Contact Us</a>
             </div>
           </li>
+          <li id="onDesktop" class="dropdown pointer transition">
+            <button class="dropbtn pointer textWhite"><img class="navUser" src="../assets/icons/user.svg"></button>
+            <div class="dropdown-content">
+              <a class="transition" href="./login.html">Log In</a>
+              <a class="transition" href="./register.html">Register</a>
+            </div>
+          </li>
         </ul>
     </header>
-    <form action="" class="form textWhite flex" autocomplete="on">
-      <h3 class="formTitle fs700 ffRoboto  bold textWhite">Register</h3>
-      <div class="flex inputsContainer">
-        <input class="accountInputs fs300" type="text" placeholder=" Name *" id="email" name="name" required>
-        <input class="accountInputs fs300" type="email" placeholder=" Email *" id="email" name="email" required>
-        <input class="accountInputs fs300" type="password" placeholder=" Password *" id="password" name="password" required>
-        <input class="accountInputs fs300" type="password" placeholder=" Re-type password *" id="password" name="password" required>
-      </div>
-      <input class="submitButton pointer transition textWhite bgRed" type="submit" value="Log in">
-      <div class="flex remember">
-        <div class="flex">
-          <input class="checkbox pointer" id="checkbox" type="checkbox"><label class="fs200 pointer thin" for="checkbox"> Remember me</label>
+    <div class="accountCard">
+      <form action="" class="form textWhite flex" autocomplete="on">
+        <h3 class="formTitle fs700 ffRoboto  bold textWhite">Register</h3>
+        <div class="flex inputsContainer">
+          <input class="accountInputs fs300" type="text" placeholder=" Name *" id="email" name="name" required>
+          <input class="accountInputs fs300" type="email" placeholder=" Email *" id="email" name="email" required>
+          <input class="accountInputs fs300" type="password" placeholder=" Password *" id="password" name="password" required>
+          <input class="accountInputs fs300" type="password" placeholder=" Re-type password *" id="password" name="password" required>
         </div>
-        <p class="fs200 thin pointer needHelp">Need help</p>
-      </div>
-      <div class="flex new">
-        <p class="fs200 thin textGray">Already have an account?</p>
-        <p class="fs200 thin textWhite"><a class="signUp" href="login.html">Log In now.</a></p>
-      </div>
-      <p class="fs100 thin textGray" style="align-self: start;">This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="#">Learn more.</a></p>
-    </form>
-  </div> 
+        <input class="submitButton pointer transition textWhite bgRed" type="submit" value="Log in">
+        <div class="flex remember">
+          <div class="flex">
+            <input class="checkbox pointer" id="checkbox" type="checkbox"><label class="fs200 pointer thin" for="checkbox"> Remember me</label>
+          </div>
+          <p class="fs300 thin pointer needHelp">Need help</p>
+        </div>
+        <div class="flex new">
+          <p class="fs300 thin textGray">Already have an account?</p>
+          <p class="fs300 thin textWhite"><a class="signUp" href="login.html">Log In now.</a></p>
+        </div>
+        <p class="fs200 thin textGray" style="align-self: start;">This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="#">Learn more.</a></p>
+      </form>
+    </div> 
+  </div>
   <footer class="textGray">
     <hr style="width: 80%;">
     <section class="flex upperFooter">

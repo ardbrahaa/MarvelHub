@@ -42,6 +42,8 @@
           <li class="pointer transition"><a href="../pages/merchandise.html">Merchandise</a></li>
           <li id="onMobile" class="pointer transition"><a href="../pages/about.html">About Us</a></li>
           <li id="onMobile" class="pointer transition"><a href="../pages/contact.html">Contact Us</a></li>
+          <li id="onMobile" class="pointer transition"><a href="../pages/login.html">Log In</a></li>
+          <li id="onMobile" class="pointer transition"><a href="../pages/register.html">Register</a></li>
           <li id="onDesktop" class="dropdown pointer transition">
             <button class="dropbtn pointer textWhite">About &#9662;</button>
             <div class="dropdown-content">
@@ -50,33 +52,33 @@
             </div>
           </li>
           <li id="onDesktop" class="dropdown pointer transition">
-            <button class="dropbtn pointer textWhite"><img src="../assets/icons/user.svg"> &#9662;</button>
+            <button class="dropbtn pointer textWhite"><img class="navUser" src="../assets/icons/user.svg"></button>
             <div class="dropdown-content">
-              <a class="transition" href="../pages/login.html">Log In</a>
-              <a class="transition" href="../pages/register.html">Register</a>
+              <a class="transition" href="./login.html">Log In</a>
+              <a class="transition" href="./register.html">Register</a>
             </div>
           </li>
-        </ul>
+        </ul> 
     </header>
     <div class="accountCard">
       <form action="" class="form textWhite flex" autocomplete="on">
         <h3 class="formTitle fs700 ffRoboto bold textWhite">Log In</h3>
         <div class="flex inputsContainer">
-          <input class="accountInputs" type="email" placeholder=" Email" id="email" name="email">
-          <input class="accountInputs" type="password" placeholder=" Password" id="password" name="password">
+          <input class="accountInputs" type="email" placeholder=" Email *" id="email" name="email" required>
+          <input class="accountInputs" type="password" placeholder=" Password *" id="password" name="password" required>
         </div>
         <input class="submitButton pointer transition textWhite bgRed" type="submit" value="Log in">
         <div class="flex remember">
           <div class="flex">
             <input class="checkbox pointer" id="checkbox" type="checkbox"><label class="fs200 pointer thin" for="checkbox"> Remember me</label>
           </div>
-          <p class="fs200 thin pointer needHelp">Need help</p>
+          <p class="fs300 thin pointer needHelp">Need help</p>
         </div>
         <div class="flex new">
-          <p class="fs200 thin textGray">New to MarvelHub?</p>
-          <p class="fs200 thin textWhite"><a class="signUp" href="register.html">Register now.</a></p>
+          <p class="fs300 thin textGray">New to MarvelHub?</p>
+          <p class="fs300 thin textWhite"><a class="signUp" href="register.html">Register now.</a></p>
         </div>
-        <p class="fs100 thin textGray" style="align-self: start;">This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="#">Learn more.</a></p>
+        <p class="fs200 thin textGray" style="align-self: start;">This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="#">Learn more.</a></p>
       </form>
     </div> 
   </div>
