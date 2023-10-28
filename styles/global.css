@@ -201,7 +201,7 @@ input, button, textarea, select { font: inherit;}
   color: #ffffff;
   padding: 4rem 3rem;
   position: absolute;
-  top:  10%;
+  top:  0;
   left:  5%;
 }
 
@@ -239,6 +239,10 @@ input, button, textarea, select { font: inherit;}
 @media (min-width:45rem) {
   .indexBanner .content {
     margin: 5rem 0rem 10rem -15rem;
+  }
+
+  .text {
+    top: 10%;
   }
 }
 
