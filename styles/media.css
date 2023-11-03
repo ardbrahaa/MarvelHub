@@ -59,6 +59,12 @@
   justify-content: center;
 }
 
+.saveIcon {
+  width: 25px;
+  height: 25px;
+  margin-top: 80px;
+}
+
 @media (min-width: 45rem) {
   .mediabanner .content {
     text-align: start;
