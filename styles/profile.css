@@ -107,8 +107,8 @@
 }
 
 .communityImg {
-    width: 125px;
-    height: 125px;
+    width: 75px;
+    height: 75px;
 }
 
 .communityCard {
@@ -157,6 +157,11 @@
 
     .communityCard {
         margin: .5rem 2rem;
+    }
+
+    .communityImg {
+        width: 125px;
+        height: 125px;
     }
 }
 
