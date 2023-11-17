@@ -475,7 +475,7 @@ select {
   }
 
   .nav li {
-    padding-block: .35rem;
+    padding-block: .3rem;
     display: block;
     width: fit-content;
     margin: auto;

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,59 +9,76 @@
   <link rel="icon" href="../assets/icons/icon.png">
   <title>MarvelHub | Profile</title>
 </head>
+
 <body>
   <header class="mainHeader flex">
     <div class="headerLogo">
       <a href="../index.html"><img src="../assets/icons/icon.png"></a>
     </div>
     <button data-visible="false" class="navToggle blackToggle pointer transition"></button>
-      <ul class="flex nav fs400 ffSans transition">
-        <li class="pointer transition"><a href="../index.html">Home</a></li>
-        <li id="onMobile" class="pointer transition"><a href="../pages/movies.html">Movies</a></li>
-        <li id="onMobile" class="pointer transition"><a href="../pages/shows.html">Shows</a></li>
-        <li id="onMobile" class="pointer transition"><a href="../pages/comics.html">Comics</a></li>
-        <li id="onMobile" class="pointer transition"><a href="../pages/games.html">Games</a></li>
-        <li id="onDesktop"  class="dropdown pointer transition">
-          <button class="dropbtn pointer">Media &#9662;</button>
-          <div class="dropdown-content">
-            <a class="transition" href="../pages/movies.html">Movies</a>
-            <a class="transition" href="../pages/shows.html">Shows</a>
-            <a class="transition" href="../pages/comics.html" style="text-shadow: 0 0 5px #ffffff;">Comics</a>
-            <a class="transition" href="../pages/games.html" style="text-shadow: 0 0 5px #ffffff;">Games</a>
-          </div>
-        </li>
-        <li id="onMobile" class="pointer transition"><a href="../pages/fanArt.html">Fan Art</a></li>
-        <li id="onMobile" class="pointer transition"><a href="../pages/news.html">News</a></li>
-        <li id="onDesktop"  class="dropdown pointer transition">
-          <button class="dropbtn pointer">Community &#9662;</button>
-          <div class="dropdown-content">
-            <a class="transition" href="../pages/fanArt.html">Fan Art</a>
-            <a class="transition" href="../pages/news.html">News</a>
-          </div>
-        </li>
-        <li class="pointer transition"><a href="../pages/merchandise.html">Merchandise</a></li>
-        <li id="onMobile" class="pointer transition"><a href="../pages/about.html">About Us</a></li>
-        <li id="onMobile" class="pointer transition"><a href="../pages/contact.html">Contact Us</a></li>
-        <li id="onMobile" class="pointer transition"><a href="../pages/login.html">Log In</a></li>
-        <li id="onMobile" class="pointer transition"><a href="../pages/register.html">Register</a></li>
-        <li id="onDesktop" class="dropdown pointer transition">
-          <button class="dropbtn pointer">About &#9662;</button>
-          <div class="dropdown-content">
-            <a class="transition" href="../pages/about.html">About Us</a>
-            <a class="transition" href="../pages/contact.html">Contact Us</a>
-          </div>
-        </li>
-      </ul>
+    <ul class="flex nav fs400 ffSans transition">
+      <li class="pointer transition"><a href="../index.html">Home</a></li>
+      <li id="onMobile" class="pointer transition"><a href="../pages/movies.html">Movies</a></li>
+      <li id="onMobile" class="pointer transition"><a href="../pages/shows.html">Shows</a></li>
+      <li id="onMobile" class="pointer transition"><a href="../pages/comics.html">Comics</a></li>
+      <li id="onMobile" class="pointer transition"><a href="../pages/games.html">Games</a></li>
+      <li id="onDesktop" class="dropdown pointer transition">
+        <button class="dropbtn pointer">Media &#9662;</button>
+        <div class="dropdown-content">
+          <a class="transition" href="../pages/movies.html">Movies</a>
+          <a class="transition" href="../pages/shows.html">Shows</a>
+          <a class="transition" href="../pages/comics.html" style="text-shadow: 0 0 5px #ffffff;">Comics</a>
+          <a class="transition" href="../pages/games.html" style="text-shadow: 0 0 5px #ffffff;">Games</a>
+        </div>
+      </li>
+      <li id="onMobile" class="pointer transition"><a href="../pages/fanArt.html">Fan Art</a></li>
+      <li id="onMobile" class="pointer transition"><a href="../pages/news.html">News</a></li>
+      <li id="onDesktop" class="dropdown pointer transition">
+        <button class="dropbtn pointer">Community &#9662;</button>
+        <div class="dropdown-content">
+          <a class="transition" href="../pages/fanArt.html">Fan Art</a>
+          <a class="transition" href="../pages/news.html">News</a>
+        </div>
+      </li>
+      <li class="pointer transition"><a href="../pages/merchandise.html">Merchandise</a></li>
+      <li id="onMobile" class="pointer transition"><a href="../pages/about.html">About Us</a></li>
+      <li id="onMobile" class="pointer transition"><a href="../pages/contact.html">Contact Us</a></li>
+      <li id="onMobile" class="pointer transition"><a href="../pages/login.html">Log In</a></li>
+      <li id="onMobile" class="pointer transition"><a href="../pages/register.html">Register</a></li>
+      <li id="onDesktop" class="dropdown pointer transition">
+        <button class="dropbtn pointer">About &#9662;</button>
+        <div class="dropdown-content">
+          <a class="transition" href="../pages/about.html">About Us</a>
+          <a class="transition" href="../pages/contact.html">Contact Us</a>
+        </div>
+      </li>
+    </ul>
   </header>
   <main class="flex contentWrapper">
     <aside>
       <nav>
         <ul class="secondaryNav">
-          <li><a class="flex secondaryPages transition pointer" href="../index.html"><img class="navImg" src="../assets/icons/home.svg"><p class="navPage">Home</p></a></li>
-          <li><a class="flex secondaryPages transition pointer activePage" href="./profile.html"><img class="navImg" src="../assets/icons/profile.svg"><p class="navPage">Profile</p></a></li>
-          <li><a class="flex secondaryPages transition pointer" href="./community.html"><img class="navImg" src="../assets/icons/premium.svg"><p class="navPage">Community</p></a></li>
-          <li><a class="flex secondaryPages transition pointer" href="#"><img class="navImg" src="../assets/icons/bookmarks.svg"><p class="navPage">Bookmarks</p></a></li>
-          <li onclick="alert('Are you sure you wanna delete your account?')"><a class="flex secondaryPages delete transition pointer" href="#"><img class="navImg" src="../assets/icons/delete.svg"><p class="navPage">Delete Account</p></a></li>
+          <li><a class="flex secondaryPages transition pointer" href="../index.html"><img class="navImg"
+                src="../assets/icons/home.svg">
+              <p class="navPage">Home</p>
+            </a></li>
+          <li><a class="flex secondaryPages transition pointer activePage" href="./profile.html"><img class="navImg"
+                src="../assets/icons/profile.svg">
+              <p class="navPage">Profile</p>
+            </a></li>
+          <li><a class="flex secondaryPages transition pointer" href="./community.html"><img class="navImg"
+                src="../assets/icons/premium.svg">
+              <p class="navPage">Community</p>
+            </a></li>
+          <li><a class="flex secondaryPages transition pointer" href="./bookmarks.html"><img class="navImg"
+                src="../assets/icons/bookmarks.svg">
+              <p class="navPage">Bookmarks</p>
+            </a></li>
+          <li onclick="alert('Are you sure you wanna delete your account?')"><a
+              class="flex secondaryPages delete transition pointer" href="#"><img class="navImg"
+                src="../assets/icons/delete.svg">
+              <p class="navPage">Delete Account</p>
+            </a></li>
         </ul>
       </nav>
     </aside>
@@ -81,7 +99,8 @@
           <label class="ffOswald fs400 bold" for="username">Username :</label>
           <input class="input ffRoboto f400" type="text" id="username" name="username" value="@admin">
           <label class="ffOswald fs400 bold" for="bio">Bio: </label>
-          <textarea class="input textarea ffRoboto fs400" name="bio" id="bio">Admin of the biggest MarvelHub fanpage.</textarea>
+          <textarea class="input textarea ffRoboto fs400" name="bio"
+            id="bio">Admin of the biggest MarvelHub fanpage.</textarea>
           <label class="ffOswald fs400 bold" for="email">Email: </label>
           <input class="input ffRoboto f400" type="email" id="email" name="email" value="admin@marvelHub.com">
           <label class="ffOswald fs400 bold" for="password">Password: </label>
@@ -218,7 +237,8 @@
             <option value="Lithuania">Lithuania</option>
             <option value="Luxembourg">Luxembourg</option>
             <option value="Macao">Macao</option>
-            <option value="Macedonia, The Former Yugoslav Republic of">Macedonia, The Former Yugoslav Republic of</option>
+            <option value="Macedonia, The Former Yugoslav Republic of">Macedonia, The Former Yugoslav Republic of
+            </option>
             <option value="Madagascar">Madagascar</option>
             <option value="Malawi">Malawi</option>
             <option value="Malaysia">Malaysia</option>
@@ -290,7 +310,8 @@
             <option value="Solomon Islands">Solomon Islands</option>
             <option value="Somalia">Somalia</option>
             <option value="South Africa">South Africa</option>
-            <option value="South Georgia and The South Sandwich Islands">South Georgia and The South Sandwich Islands</option>
+            <option value="South Georgia and The South Sandwich Islands">South Georgia and The South Sandwich Islands
+            </option>
             <option value="Spain">Spain</option>
             <option value="Sri Lanka">Sri Lanka</option>
             <option value="Sudan">Sudan</option>
@@ -332,11 +353,12 @@
             <option value="Yemen">Yemen</option>
             <option value="Zambia">Zambia</option>
             <option value="Zimbabwe">Zimbabwe</option>
-        </select>
-        <label class="ffOswald fs400 bold" for="links">Links: </label>
-        <input class="input ffRoboto f400" type="url" id="links" name="links">
-        <button class="changesButton bold ffRoboto uppercase textWhite fs500 bgRed transition pointer">Confirm Changes</button>
-      </div>
+          </select>
+          <label class="ffOswald fs400 bold" for="links">Links: </label>
+          <input class="input ffRoboto f400" type="url" id="links" name="links">
+          <button class="changesButton bold ffRoboto uppercase textWhite fs500 bgRed transition pointer">Confirm
+            Changes</button>
+        </div>
       </form>
     </main>
   </main>
@@ -348,7 +370,7 @@
       </div>
       <div class="flex pagesSection">
         <div>
-          <ul class="ffSans thin fs300"> 
+          <ul class="ffSans thin fs300">
             <li class="footerPages transition flex"><a href="../index.html">Home</a></li>
             <li class="footerPages transition"><a href="./movies.html">Movies</a></li>
             <li class="footerPages transition"><a href="./shows.html">Shows</a></li>
@@ -394,4 +416,5 @@
   </footer>
   <script src="../scripts/nav.js"></script>
 </body>
+
 </html>
