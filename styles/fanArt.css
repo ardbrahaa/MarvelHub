@@ -1,12 +1,12 @@
 .gallery {
   margin-block: 5rem;
-  line-height:0;
-  -webkit-column-count:5;
-  -webkit-column-gap:5px;
-  -moz-column-count:5;
-  -moz-column-gap:5px;
-  column-count:5;
-  column-gap:5px;
+  line-height: 0;
+  -webkit-column-count: 5;
+  -webkit-column-gap: 5px;
+  -moz-column-count: 5;
+  -moz-column-gap: 5px;
+  column-count: 5;
+  column-gap: 5px;
 }
 
 .gallery img {
@@ -17,6 +17,10 @@
 
 .gallery img:hover {
   scale: 1.1;
+}
+
+.nav a {
+  text-shadow: 0 0 5px #ffffff;
 }
 
 @media (max-width: 1200px) {

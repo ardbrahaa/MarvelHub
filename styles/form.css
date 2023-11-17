@@ -24,7 +24,8 @@
   width: 9.5rem;
 }
 
-.formInputs, .formTextarea {
+.formInputs,
+.formTextarea {
   background-color: #eeeeee;
   border: none;
   border-radius: 5px;
@@ -51,7 +52,11 @@
   border: 1px solid #ff0000;
 }
 
-@media (min-width: 40rem){
+.nav a {
+  text-shadow: 0 0 5px #ffffff;
+}
+
+@media (min-width: 40rem) {
   .form {
     padding: 5rem;
   }

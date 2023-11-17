@@ -6,21 +6,21 @@
 }
 
 .comicsBanner:after {
-  content:'';
+  content: '';
   background-image: url('https://cdn.marvel.com/u/prod/marvel/i/mg/9/90/5c6f1368ed5d0/clean.jpg');
   background-position: top;
   background-size: 100% 60%;
   background-repeat: no-repeat;
   position: absolute;
-  top:0px;
+  top: 0px;
   left: 0px;
-  width:100%;
-  height:100%;
-  z-index:-1;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
   filter: brightness(30%);
 }
 
-.content  {
+.content {
   margin-top: -1rem;
   text-align: center;
   width: 75%;
@@ -54,16 +54,16 @@
 }
 
 .comicWrapper:after {
-  content:'';
+  content: '';
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
-  top:0px;
+  top: 0px;
   left: 0px;
-  width:100%;
-  height:100%;
-  z-index:-1;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
   filter: blur(.5rem) brightness(30%);
   transform: scale(1.1);
 }
@@ -106,6 +106,10 @@
   margin: auto;
 }
 
+.nav a {
+  text-shadow: 0 0 5px #ffffff;
+}
+
 @media (max-width:35rem) {
   .comicsBanner:after {
     background-image: none;
@@ -116,7 +120,7 @@
   }
 }
 
-@media (min-width: 35rem){
+@media (min-width: 35rem) {
   .imageSection img {
     width: 20rem;
   }
@@ -126,7 +130,7 @@
   }
 }
 
-@media (min-width: 45rem){
+@media (min-width: 45rem) {
   .comicsBanner {
     margin-top: 4rem;
   }
@@ -136,7 +140,7 @@
   }
 }
 
-@media (min-width:55rem){
+@media (min-width:55rem) {
   .mainComic {
     flex-direction: row;
     text-align: start;
@@ -153,7 +157,7 @@
   }
 }
 
-@media (min-width: 60rem){
+@media (min-width: 60rem) {
   .imageSection {
     margin-left: 5rem;
   }
@@ -163,11 +167,11 @@
   }
 }
 
-@media (min-width: 80rem){
+@media (min-width: 80rem) {
   .topComics {
     margin-left: auto;
   }
-} 
+}
 
 .infinityGauntlet:after {
   background-image: url('https://cdn.marvel.com/u/prod/marvel/i/mg/9/20/51f6911ce3cc3/background.jpg');

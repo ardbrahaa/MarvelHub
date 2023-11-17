@@ -7,13 +7,16 @@
   margin: auto;
 }
 
-main h2, main h3, .mainText{
+main h2,
+main h3,
+.mainText {
   text-align: center;
   line-height: 1.75;
 }
 
-main h3, main h2 {
-  padding-bottom: 1rem; 
+main h3,
+main h2 {
+  padding-bottom: 1rem;
   width: fit-content;
   border-bottom: .5px solid #111111;
   margin: 2rem auto;
@@ -30,6 +33,10 @@ main hr {
 
 .numberedWork {
   margin: 1rem 2rem;
+}
+
+.nav a {
+  text-shadow: 0 0 5px #ffffff;
 }
 
 @media (min-width:45rem) {
