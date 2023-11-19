@@ -108,6 +108,10 @@
   justify-content: start;
 }
 
+.communityWrapper {
+  width: 90%;
+}
+
 .communityImg {
   width: 75px;
   height: 75px;
@@ -190,12 +194,6 @@
 
 .nav a {
   text-shadow: 0 0 5px #ffffff;
-}
-
-@media (max-width: 767.99px) {
-  .communitySection .secondaryPages {
-    width: 30px;
-  }
 }
 
 @media (min-width: 768px) {
