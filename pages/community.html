@@ -60,7 +60,7 @@
               <li><a class="flex secondaryPages transition pointer" href="./profile.html"><img class="navImg" src="../assets/icons/profile.svg"><p class="navPage">Profile</p></a></li>
               <li><a class="flex secondaryPages transition pointer activePage" href="./community.html"><img class="navImg" src="../assets/icons/premium.svg"><p class="navPage">Community</p></a></li>
               <li><a class="flex secondaryPages transition pointer" href="./bookmarks.html"><img class="navImg" src="../assets/icons/bookmarks.svg"><p class="navPage">Bookmarks</p></a></li>
-              <li onclick="alert('Are you sure you wanna delete your account?')"><a class="flex secondaryPages delete transition pointer" href="#"><img class="navImg" src="../assets/icons/delete.svg"><p class="navPage">Delete Account</p></a></li>
+              <li><a class="flex secondaryPages delete transition pointer" href="#"><img class="navImg" src="../assets/icons/delete.svg"><p class="navPage">Delete Account</p></a></li>
             </ul>
           </nav>
         </aside>
@@ -230,6 +230,16 @@
           </section>
         </main>
       </main>
+      <div class="deleteWindow flex hidden">
+        <img src="../assets/icons/warning.svg" class="warningImg" width="50px">
+        <h3 class="ffOswald uppercase bold fs500">Deleting Account</h3>
+        <p class="ffRoboto fs300 thin">Deleting your account will remove all of your information from out database. This process cannot be undone!</p>
+        <div class="flex">
+          <button class="windowButton cancelButton ffSans bold uppercase pointer transition">Cancel</button>
+          <button class="windowButton deleteButton ffSans bold uppercase textWhite pointer transition">Delete</button>
+        </div>
+      </div>
+      <div class="overlay hidden"></div>
       <footer class="textGray">
         <hr style="width: 80%;">
         <section class="flex upperFooter">
@@ -282,6 +292,7 @@
           </div>
         </section>
     </footer>
+    <script src="../scripts/deleteWindow.js"></script>
     <script src="../scripts/nav.js"></script>
 </body>
 </html>

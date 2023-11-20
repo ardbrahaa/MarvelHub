@@ -38,6 +38,62 @@
   color: hsla(357 92.44% 46.67%);
 }
 
+.deleteWindow {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: min(450px, 70%);
+  background-color: #ffffff;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+}
+
+.lockScroll {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.deleteWindow .windowButton {
+  border-radius: .5rem;
+  padding: .5rem 1rem;
+}
+
+.cancelButton {
+  border: 1px solid #6d6d6d;
+}
+
+.cancelButton:hover {
+  background-color: #dedede;
+}
+
+.deleteButton {
+  background-color: #ff0000;
+  border: 1px solid #ff0000;
+}
+
+.deleteButton:hover{
+  background-color: #de0000;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
+.hidden {
+  display: none;
+}
+
 .profileSection {
   width: 90%;
   display: flex;
@@ -241,6 +297,10 @@
 
   .filledBookmarksIcon {
     top: -125px;
+  }
+
+  .deleteWindow {
+    padding: 3rem;
   }
 }
 
