@@ -463,7 +463,6 @@ select {
     right: 0;
     padding: 5rem 1rem;
     width: 70%;
-    height: 100vh;
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
     flex-direction: column;
